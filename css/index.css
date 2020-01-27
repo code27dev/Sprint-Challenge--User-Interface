@@ -86,11 +86,24 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.top, .logo {
+ .flex, .alone, .top { 
         display: flex;
-        justify-content: space-evenly;       
-}
+        flex-direction: row;
+ }
+ 
+ .alone {
+     padding-left: 5%;
+     padding-bottom: 4%
+ }
 
+ .top, a { 
+     padding-left: 10px;
+     display: flex;
+     justify-content: space-between;
+     margin-right: 22%;
+     margin-top: 2%;
+     margin-left: 2%;
+ }
 
 
 nav a {
@@ -99,18 +112,26 @@ nav a {
 }
 
 .logo2 {
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     margin-left: 5%;
+}
+
+.logostretch {
+    width: 90%;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    padding-top: 15px;
+}
+.work {
+    padding-top: 15px;
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .container {
@@ -137,6 +158,43 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about{
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+.life {
+    width: 93%;
+}
+
+.life:hover{
+    border: 6px dotted #000405;
+  }
+
+.ai{
+    width: 93%;
+}
+
+.ai:hover{
+    border: 6px dashed rgb(0, 160, 235);
+  }
+
+.person{
+    width: 93%
+}
+
+.person:hover{
+    border: 6px dashed #000203;
+  }
+
+.thinking{
+    width: 93%;
+}
+
+.thinking:hover{
+    border: 6px dotted rgb(0, 160, 235);
+  }
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -151,20 +209,50 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box-1{
+    background: teal;
+}
+.box-2{
+    background: gold;
+}
+.box-3{
+    background: cadetblue;
+}
+.box-4{
+    background: coral;
+}
+.box-5{
+    background: crimson;
+}
+.box-6{
+    background: forestgreen;
+}
+.box-7{
+    background: darkorchid;
+}
+.box-8{
+    background: hotpink;
+}
+.box-9{
+    background: indigo;
+}
+.box-10{
+    background: dodgerblue;
+}
+
 button {
 	font-family: 'Titillium Web', sans-serif;
-	/* display: inline-block; */
-	border: 1px solid black;
+	border: 3px solid black;
 	font-size: 15px;
 	font-weight: none;
-	width: 44%;
+	width: 33%;
 	height: 30px;
 	text-align: center;
 	line-height: 10px;
@@ -174,16 +262,17 @@ button {
     margin-top: 20px;
  
 }
-.phone{
-        border-bottom: 3px dotted #000;
+.phone {
         padding-top: 35px;
-        margin-top: 35px;
+        margin-top: 15px;
 }
 
+.dot {
+    border-bottom: 1px dashed #000;
+}
 
-
-h2{
-    padding: 20px;
+.work {
+    padding-bottom: 30px;
 }
 
 .bottom-content {
